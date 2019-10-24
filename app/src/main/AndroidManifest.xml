@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.indomi.disgrafia">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBQVCvzIz1ggbvNm-QXPAjIeNPAbRVZLEY" />
+
+        <activity android:name=".activity_awal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity_login" />
+        <activity android:name=".activity_daftar" />
+        <activity
+            android:name=".activity_dashboard"
+            android:label="Dashboard"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity_cek" />
+        <activity android:name=".activity_edukasi" />
+        <activity android:name=".activity_quiz" />
+        <activity android:name=".activity_game" />
+        <activity android:name=".activity_prestasi" />
+        <activity android:name=".activity_input_anak1" />
+        <activity android:name=".activity_input_anak2" />
+        <activity android:name=".activity_lokasi" />
+        <activity android:name=".activity_yutub" />
+    </application>
+
+</manifest>

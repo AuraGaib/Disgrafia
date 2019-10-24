@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/anak_1"
+            android:icon="@drawable/user"
+            android:title="Ricky" />
+        <item
+            android:id="@+id/anak_2"
+            android:icon="@drawable/user"
+            android:title="Mustaqim" />
+        <item
+            android:id="@+id/histori_grafik"
+            android:icon="@drawable/graph"
+            android:title="Grafik Perkembangan Anak" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1097990383757",
+    "firebase_url": "https://disgrafia-6139a.firebaseio.com",
+    "project_id": "disgrafia-6139a",
+    "storage_bucket": "disgrafia-6139a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097990383757:android:2aaf11207c196916161ac4",
+        "android_client_info": {
+          "package_name": "com.indomi.disgrafia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097990383757-qekb6te489p8bcm3ekeir4b3psqpe34p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.indomi.disgrafia",
+            "certificate_hash": "456dfedc5fa289a2356ef9162ca79b3120dac570"
+          }
+        },
+        {
+          "client_id": "1097990383757-f5hid7ca3lai1k4gg3rjk7k73bjhpn3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRJMX4ieA0dSEsFkSjBqLyCxNRy4adrbw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097990383757-f5hid7ca3lai1k4gg3rjk7k73bjhpn3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

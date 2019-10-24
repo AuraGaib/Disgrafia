@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".activity_awal">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gambar_logo"
+        android:src="@drawable/logo"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tombol_go"
+        android:layout_below="@+id/gambar_logo"
+        android:layout_centerHorizontal="true"
+        android:text="Lanjut > > >"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GEMASTIK XII 2019"
+        android:id="@+id/nama_apk"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="by INDOMI"
+        android:id="@+id/nama_tim"
+        android:layout_above="@+id/nama_apk"
+        android:textSize="5pt"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Pendeteksi Disgrafia"
+        android:id="@+id/nama_lomba"
+        android:layout_above="@+id/nama_tim"
+        android:layout_centerHorizontal="true"
+        android:textSize="5pt"
+        />
+
+
+</RelativeLayout>
